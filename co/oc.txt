@@ -1,0 +1,7 @@
+a = 10
+x = 0
+t0 = a < 3
+t0==FALSE GOTO 6
+x = 1
+GOTO 7
+x = 2
