@@ -2,6 +2,7 @@
 
 ## Details
 Yacc and Lex have been used to write a compiler for Java. 
+
 Pipeline:
 Java Code -> AST -> ICG -> CO -> Assembly (ARM)
 
