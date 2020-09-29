@@ -1,0 +1,23 @@
+
+
+ The INTERMEDIATE CODE Is : 
+
+
+ 0     =          10                    a
+ 1     =          0                    x
+ 2     <          a          3          t0
+ 3     ==          t0          FALSE          GOTO 6
+ 4     =          1                    x
+ 5     GOTO                              7
+ 6     =          2                    x
+
+1234
+a = 10
+x = 0
+t0 = a < 3
+t0==FALSE GOTO 6
+x = 1
+GOTO 7
+x = 2
+
+
