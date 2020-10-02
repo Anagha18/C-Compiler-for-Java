@@ -1,10 +1,10 @@
-# C-Compiler-for-Java
+# Toy Compiler
 
 ## Details
-Yacc and Lex have been used to write a compiler for Java. 
+Yacc and Lex have been used to write a compiler for Java.
 
 Pipeline:
-Java Code -> AST -> ICG -> CO -> Assembly (ARM)
+Java Code -> Abstract Syntax Tree -> Intermediate Code Generation -> Code Optimization -> Assembly (ARM)
 
 ## Execution
 1. The makerun.sh file should be executed using bash ./makerun.sh
